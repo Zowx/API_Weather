@@ -1,0 +1,66 @@
+/* Styles pour le corps de la page */
+body {
+    transition: background-color 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Styles pour l'affichage de l'heure courante */
+.current-time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+}
+
+/* Styles pour les informations météo */
+.weather-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les icônes météo */
+.weather-info i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Styles pour l'icône de la météo */
+.weather-icon img {
+    height: 50px;
+}
+
+/* Styles pour la carte interactive */
+#map {
+    height: 400px;
+}
+
+.form-container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background-image {
+    background-image: url('../img/');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Styles pour l'affichage du token */
+.token-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Styles pour le bouton de déconnexion */
+.button-deconnexion {
+    margin-top: 20px;
+}
